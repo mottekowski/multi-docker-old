@@ -18,3 +18,14 @@ after_success:
     - docker push mottekowski/multi-nginx
     - docker push mottekowski/multi-server
     - docker push mottekowski/multi-worker
+deploy:
+    provider: elasticbeanstalk
+    region: "eu-central-1"
+    app: multi-docker
+    env: MultiDocker-env
+    bucket_name: TBD
+    bucket_path: docker-multi
+    on:
+        branch: master
+    access_key_id: $AWS_ACCESS_KEY
+    secret_access_key: $AWS_SECRET_KEY
