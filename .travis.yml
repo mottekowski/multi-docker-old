@@ -23,7 +23,7 @@ deploy:
     region: "eu-central-1"
     app: multi-docker
     env: MultiDocker-env
-    bucket_name: TBD
+    bucket_name: elasticbeanstalk-eu-central-1-498807402393
     bucket_path: docker-multi
     on:
         branch: master
