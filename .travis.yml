@@ -19,6 +19,7 @@ after_success:
     - docker push mottekowski/multi-server
     - docker push mottekowski/multi-worker
 deploy:
+    edge: true
     provider: elasticbeanstalk
     region: "eu-central-1"
     app: multi-docker
