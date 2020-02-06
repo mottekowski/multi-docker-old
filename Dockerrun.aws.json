@@ -15,6 +15,13 @@
             "hostname": "api",
             "essential": false,
             "memory": 128
+        },
+        {
+            "name": "worker",
+            "image": "mottekowski/multi-worker",
+            "hostname": "worker",
+            "essential": false,
+            "memory": 128
         }
     ]
 }
