@@ -8,6 +8,13 @@
             "essential": false,
             "memory": 128
 
+        },
+        {
+            "name": "server",
+            "image": "mottekowski/multi-server",
+            "hostname": "api",
+            "essential": false,
+            "memory": 128
         }
     ]
 }
