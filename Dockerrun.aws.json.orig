@@ -27,7 +27,7 @@
             "name": "nginx",
             "image" :"mottekowski/multi-nginx",
             "hostname": "nginx",
-            "essential": true,
+            "essential": false,
             "portMappings": [
                 {
                     "hostPort": "80",
