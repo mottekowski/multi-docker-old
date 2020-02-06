@@ -2,6 +2,14 @@
     "AWSEBDockerrunVersion": 2,
     "containerDefinitions": [
         {
+            "name": "client",
+            "image": "mottekowski/multi-client",
+            "hostname": "client",
+            "essential": false,
+            "memory": 128
+
+        },
+        {
             "name": "nginx",
             "image" :"mottekowski/multi-nginx",
             "hostname": "nginx",
