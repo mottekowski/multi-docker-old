@@ -18,7 +18,7 @@ function App() {
           <Route path="/otherpage" component={OtherPage} />
         </div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload. Well done.
         </p>
         <a
           className="App-link"
